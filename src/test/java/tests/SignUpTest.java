@@ -46,6 +46,17 @@ public class SignUpTest {
 		Driver.getDriver().get("http://saucedemo.com");
 		Thread.sleep(2000);
 		System.out.println("Test 5" + " Thread:" + Thread.currentThread().getId());
+			
+		
+
+		
+	}
+	
+	@Test (groups = {"smoke-test"})
+	public void test6() throws InterruptedException {
+		Driver.getDriver().get("http://saucedemo.com");
+		Thread.sleep(2000);
+		System.out.println("Test 6" + " Thread:" + Thread.currentThread().getId());
 		
 	}
 	
